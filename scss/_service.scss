@@ -7,13 +7,11 @@
 
     .service-icon {
         background-color: $bg-gray;
-        width: 145px;
-        height: 110px;
-        font-size: 42px;
+        width: 180px;
         color: $heading;
         text-align: center;
         line-height: 110px;
-        border-radius: 80px 200px 200px 362px;
+        border-radius: 40px;
         margin: 0 auto 30px;
         @include transition-duration(500ms);
     }
