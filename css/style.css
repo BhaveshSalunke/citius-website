@@ -1119,6 +1119,26 @@ you can use the generic selector below, but it's slower:
 	content: "\e0e6";
 }
 
+	.services-drop {
+		align-items: center;
+		display: flex;
+		height:24vh;
+		justify-content: center;
+	}
+	.services-shape {
+		background:#add1f5;
+		animation: morph 8s ease-in-out infinite;
+		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+		height: 120px;
+		transition: all 1s ease-in-out;
+		width: 120px;
+		z-index: 5;
+	}
+
+	.services-shape img {
+		height: 70px;
+		margin-top: 22px;
+	}
 
 	.glyph {
 		float: left;
@@ -1155,5 +1175,3 @@ text-shadow: none;
 	.glyph .fs1 {
 		font-size: 2em;
 	}
-
-	

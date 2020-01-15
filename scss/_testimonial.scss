@@ -45,6 +45,7 @@
 .single-testimonial-slide {
     position: relative;
     z-index: 1;
+    padding: 27px;
 
     @media #{$breakpoint-xs} {
         @include flex-wrap(wrap);

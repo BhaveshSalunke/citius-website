@@ -983,7 +983,8 @@ input:focus {
 
 .single-testimonial-slide {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding: 27px; }
   @media only screen and (max-width: 767px) {
     .single-testimonial-slide {
       -ms-flex-wrap: wrap;
@@ -1731,7 +1732,8 @@ input:focus {
 
 .cta-content {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  text-align: center; }
   .cta-content h2 {
     font-size: 48px;
     margin-bottom: 10px; }
