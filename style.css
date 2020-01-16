@@ -652,7 +652,7 @@ input:focus {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 900px;
+  height: 600px;
   background-color: #ffffff; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
@@ -680,11 +680,8 @@ input:focus {
   .single-welcome-slide .welcome-text {
     position: relative;
     z-index: 1; }
-    @media only screen and (max-width: 767px) {
-      .single-welcome-slide .welcome-text {
-        padding-top: 50px; } }
     .single-welcome-slide .welcome-text h2 {
-      font-size: 72px;
+      font-size: 48px;
       display: block;
       margin-bottom: 30px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -716,7 +713,7 @@ input:focus {
           margin-bottom: 40px; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slide .welcome-thumbnail {
-      margin-top: -120px; } }
+      margin-top: 100px; } }
 
 /* :: 09.0 Portfolio CSS */
 .uza-portfolio-area {

@@ -1119,6 +1119,12 @@ you can use the generic selector below, but it's slower:
 	content: "\e0e6";
 }
 
+	.welcome-thumbnail {
+		padding: 20px;
+	}
+	#slide {
+		margin-top: 12% ;
+	}
 	.services-drop {
 		align-items: center;
 		display: flex;
@@ -1174,4 +1180,7 @@ text-shadow: none;
 	}
 	.glyph .fs1 {
 		font-size: 2em;
+	}
+	.nav-branch img {
+		height: 70px;
 	}
